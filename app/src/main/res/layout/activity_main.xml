@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/flashcard_question"
+        android:layout_below="@id/flashcard_question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:text="Qui es-tu pour oser ajir comme si le monde est entre tes main?"
+        android:textSize="40sp"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/flashcard_answer"
+        android:layout_below="@id/flashcard_answer"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:gravity="center"
+        android:text="Djelissa"
+        android:textSize="40sp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
